@@ -1,0 +1,44 @@
+Class selector on CSS:
+.className
+<h1 class="className"> this is an element</h1>
+
+ID selector on CSS:
+#idName
+<h1 id="idName"> this is an element</h1>
+
+Attribute Selector on CSS:
+[disabled]
+<buttton enabled>
+
+Selector for the same elements:
+elementName {
+}
+
+All elements
+* {
+  
+}
+--------------------------------------------------
+******************COMBINATORS*********************
+
+Adjacent Siblings: + (applies to all elements that follow the previous one)
+General Siblings: ~ (all elements on teh same level)
+Child: > (only child elements would get the style)
+Descendant: White Space (second element is a descendant of the first one)
+
+--------------------------------------------------
+*************SHORTHAND PROPERTIES*****************
+Combine values of multiple properties in a single property
+border: 2px dashed orange instead of border-width: 2px, border-style: dashed, border-color: orange
+
+
+
+margin: 5px 10px 5px 10px (top, right, bottom, left)
+margin: 5px 10px (top & bottom, left & right)
+margin: 10px (all sides)
+
+--------------------------------------------------
+***************PSEUDO CLASS & ELEMENTS************
+
+Pseudo Class : className Defines the style of a special state of an element
+Pseudo Element :: elementName Defines the style of a specific part of an element
